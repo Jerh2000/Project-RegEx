@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="toastr/toastr.min.css">
+    <title>Project</title>
+    <style>
+        .card-container{
+            margin-top: 70px;
+            border-radius: 15px;
+            box-shadow: 0px 2px 14px 0px rgba(13, 110, 253, 0.3);
+            padding: 10px;
+            transition: 0.3s;
+        }
+        .card-container:hover{
+            transition: 0.3s;
+            box-shadow: 0px 2px 14px 0px rgba(13, 110, 253, 0.6);
+        }
+        .card{
+            height: 460px;
+            border: none;
+        }
+        .toast{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar-expand-lg navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Regular Expressions</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-center">
+                <div class="col-md-4 card-container">
+                    <div class="card">
+                        <img src="img/card-backgroud3.jpg" class="card-img-top" alt="...">
+                        
+                        <div class="card-body">
+                            <form action="" id="form">
+                                <div class="form-group">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" id="input" name="input" class="form-control" placeholder="Write your sentence...">  
+                                        <label for="input">Write your sentence...</label>
+                                    </div>
+                                </div>
+                                <div class="form-group text-center mt-4">
+                                    <button type="submit" class="btn btn-primary">Validate</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+<script src="toastr/toastr.min.js"></script>
+<script type="text/javascript" src="expressions.js"></script>
+</html>

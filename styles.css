@@ -6,11 +6,11 @@ body{
     height: 100vh;
     background-repeat: no-repeat;
     background-image: url('img/background.jpg');
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
 }
 
 .card-container{
-    margin-top: 40px;
+    margin-top: 10px;
     border-radius: 15px;
     background-color: white;
     box-shadow: 0px 2px 14px 0px rgba(13, 110, 253, 0.3);
@@ -19,11 +19,9 @@ body{
 }
 .card-container:hover{
     transition: 0.3s;
-    box-shadow: 0px 0px 14px 0px rgba(13, 110, 253, 0.9);
+    box-shadow: 0px 0px 18px 0px rgba(13, 110, 253, 0.9);
 }
 .card{
-    height: 460px;
+    height: 450px;
     border: none;
 }
-
-

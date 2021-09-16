@@ -50,7 +50,7 @@ Y MUCHAS MAS....
 
 */
 
-
+//REGULAR EXPRESION OPCION 1
 // const expression = {
 //     firstPerson:  /^(((I|She|He)|(Jairo|Candelaria|Emily|Johan|Julio|Maria|Andres|Sofia|Carmen|Josefa|Camilo)) (was) (a good doctor|beautiful|a player soccer|in England|in my house yesterday|a bad student|sick yesterday|a lawyer|tired last night|a good football player|happy))$/i,
 //     secondPerson: /^((You) (were) (a good doctor|beautiful|a player soccer|in England|in my house yesterday|a bad student|sick yesterday|a lawyer|tired last night|a good football player|happy))$/i,
@@ -58,6 +58,24 @@ Y MUCHAS MAS....
 //     thirdPerson: /^((She|He) (was) (a good doctor|beautiful|a player soccer|in England|in my house yesterday|a bad student|sick yesterday|a lawyer|tired last night|a good football player|happy))$/i,
 //     thirdPersonOthers: /^((((((The|A|This|That) (car|table|chair|shirt|computer|tree|pencil|notebook))|(It)) (was))|((The|Those|These) (cars|tables|chairs|shirts|computers|trees|pencils|notebooks)) (were)) (beautiful|blue|in England|in my house yesterday|big|expensive|here yesterday|very small|clean|in the garden))$/i,
 // }
+// const form = document.getElementById('form');
+// form.addEventListener('submit', (e)=>{
+//     e.preventDefault();
+//     var sentence = document.getElementById('input').value;
+//     if(expression.firstPerson.test(sentence)){
+//         alert("Todo OK");
+//     }else if(expression.secondPerson.test(sentence)){
+//         alert("Todo OK");
+//     }else if(expression.secondPersonPlural.test(sentence)){
+//         alert("Todo OK");
+//     }else if(expression.thirdPerson.test(sentence)){
+//         alert("Todo OK");
+//     }else if(expression.thirdPersonOthers.test(sentence)){
+//         alert("Todo OK");
+//     }else{
+//         alert("Todo Mal");
+//     }
+// });
 
 //EXPRESION REGULAR OPCION 2 (ON)
 var expresion="^(((((("

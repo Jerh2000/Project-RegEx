@@ -8,7 +8,7 @@ const commonNouns = ["car","chair","table","apple","child"];
 const commonNouns2 = ["cars","chairs","tables","apples","kids"];
 const article = ["The","A","An"];
 const complements = ["a good doctor","beautiful","a player soccer","in England","in my house yesterday","a bad student","sick yesterday","happy","blue","a teacher","in the garden","at the mall that night","good person"];
-const complements2 = ["good doctors","beautiful","players soccer","in England","in my house yesterday","bad students","sick yesterday","happy","teacher","in the garden","at the mall that night","good people","blues"];
+const complements2 = ["good doctors","beautiful","players soccer","in England","in my house yesterday","bad students","sick yesterday","happy","teachers","in the garden","at the mall that night","good people","blues"];
 
 /*
 SENTENCES

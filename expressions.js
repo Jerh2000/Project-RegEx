@@ -5,11 +5,10 @@ const demostrativePronouns = ["This","That"];
 const demostrativePronouns2 = ["These","Those"];
 const properPronuns = ["Candelaria","Emily","Johan","Jairo","Maria","Julio","Andres","Sofia","Carmen","Javier"];
 const commonNouns = ["car","chair","table","apple","child"];
-const commonNouns2 = ["cars","chairs","tables","apples"];
+const commonNouns2 = ["cars","chairs","tables","apples","kids"];
 const article = ["The","A","An"];
-const article2 = ["The"];
-const complements = ["a good doctor","beautiful","a player soccer","in England","in my house yesterday","a bad student","sick yesterday","happy","red","a teacher","in the garden","at the mall that night","good person"];
-const complements2 = ["good doctors","beautiful","players soccer","in England","in my house yesterday","bad students","sick yesterday","happy","teacher","in the garden","at the mall that night","good people"];
+const complements = ["a good doctor","beautiful","a player soccer","in England","in my house yesterday","a bad student","sick yesterday","happy","blue","a teacher","in the garden","at the mall that night","good person"];
+const complements2 = ["good doctors","beautiful","players soccer","in England","in my house yesterday","bad students","sick yesterday","happy","teacher","in the garden","at the mall that night","good people","blues"];
 
 /*
 SENTENCES
@@ -50,6 +49,15 @@ WE WERE BEAUTIFUL
 Y MUCHAS MAS....
 
 */
+
+
+// const expression = {
+//     firstPerson:  /^(((I|She|He)|(Jairo|Candelaria|Emily|Johan|Julio|Maria|Andres|Sofia|Carmen|Josefa|Camilo)) (was) (a good doctor|beautiful|a player soccer|in England|in my house yesterday|a bad student|sick yesterday|a lawyer|tired last night|a good football player|happy))$/i,
+//     secondPerson: /^((You) (were) (a good doctor|beautiful|a player soccer|in England|in my house yesterday|a bad student|sick yesterday|a lawyer|tired last night|a good football player|happy))$/i,
+//     secondPersonPlural: /^(They|We) (were) (a good doctors|beautiful|players soccer|in England|in my house yesterday|bad students|sick yesterday|lawyers|tired last night|good football players|happy)$/i,
+//     thirdPerson: /^((She|He) (was) (a good doctor|beautiful|a player soccer|in England|in my house yesterday|a bad student|sick yesterday|a lawyer|tired last night|a good football player|happy))$/i,
+//     thirdPersonOthers: /^((((((The|A|This|That) (car|table|chair|shirt|computer|tree|pencil|notebook))|(It)) (was))|((The|Those|These) (cars|tables|chairs|shirts|computers|trees|pencils|notebooks)) (were)) (beautiful|blue|in England|in my house yesterday|big|expensive|here yesterday|very small|clean|in the garden))$/i,
+// }
 
 //EXPRESION REGULAR OPCION 2 (ON)
 var expresion="^(((((("

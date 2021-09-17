@@ -1,5 +1,5 @@
 const pronouns = ["I","He","She","It"];
-const pronouns2 = ["We","They"];
+const pronouns2 = ["We","They","You"];
 const pronouns3 = ["You"];
 const demostrativePronouns = ["This","That"];
 const demostrativePronouns2 = ["These","Those"];
